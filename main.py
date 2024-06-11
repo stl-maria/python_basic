@@ -27,7 +27,7 @@ def voltar_ao_menu():
 #quando a opção que o usuário ubmeteu for invalida
 def opcao_invalida():
         print('Opcao invalida"\n')
-        voltar_ao_menu()
+        voltar_ao_menu() #refatorando o código
 
 #refatorando a ação limpar tela + nome da ação
 def exibir_subtitulo(texto):
@@ -42,7 +42,7 @@ def cadastrar_novo_restaurante():
         restaurantes.append(nome_do_restaurate)
         print(f'O restaurate {nome_do_restaurate} foi cadastrado com sucesso.\n')
 
-        voltar_ao_menu()
+        voltar_ao_menu() #refatorando o código
 
 #mostrar a lista de restaurantes do array
 def listar_restaurantes():
@@ -50,7 +50,7 @@ def listar_restaurantes():
         
         for restaurante in restaurantes:
                 print(f'.{restaurante}')
-        voltar_ao_menu()
+        voltar_ao_menu() #refatorando o código
 
 #analisar melhor esta opção depois
 """def excluir_restaurante():
