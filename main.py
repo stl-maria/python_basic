@@ -17,7 +17,7 @@ def exibir_opcoes():
 
 #finalizar o app
 def finalizar_app():
-        exibir_subtitulo('Finalizando o app.')
+        exibir_subtitulo('Finalizando o app.') //refatorando o código
 
 #voltando para o menu principal
 def voltar_ao_menu():
@@ -37,7 +37,7 @@ def exibir_subtitulo(texto):
 
 #cadastrar novo restaurante de array
 def cadastrar_novo_restaurante():
-        exibir_subtitulo('Cadastro de novos restaurantes.')
+        exibir_subtitulo('Cadastro de novos restaurantes.') //refatorando o código 
         nome_do_restaurate = input('Digite o nome do restaurante que deseja cadastar: ')
         restaurantes.append(nome_do_restaurate)
         print(f'O restaurate {nome_do_restaurate} foi cadastrado com sucesso.\n')
@@ -46,7 +46,7 @@ def cadastrar_novo_restaurante():
 
 #mostrar a lista de restaurantes do array
 def listar_restaurantes():
-        exibir_subtitulo('Listar os restaurantes.')
+        exibir_subtitulo('Listar os restaurantes.') //refatorando o código 
         
         for restaurante in restaurantes:
                 print(f'.{restaurante}')
